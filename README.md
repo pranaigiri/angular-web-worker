@@ -1,8 +1,15 @@
 # Angular Web Worker (Demo)
-Welcome to the Angular Web Worker Demo repository, your gateway to exploring the world of web workers in Angular applications! Web workers allow you to run JavaScript code in the background, enabling your web applications to perform parallel processing, making them more responsive and efficient.
+Web workers allow you to run JavaScript code in the background, enabling your web applications to perform parallel processing, making them more responsive and efficient.
 
-## UI Screenshot
-![Web Worker Screenshot](https://github.com/pranaigiri/angular-web-worker/assets/102620441/9a7fb2a1-348a-444a-b944-a81ef071ba0d)
+## UI Freezes without using webworker
+![10000000 using normal](https://github.com/pranaigiri/angular-web-worker/assets/102620441/e64206c2-9793-485b-8503-d24c4113eeee)
+
+## UI stays responsive while calculating using web worker
+![10000000 with responsive](https://github.com/pranaigiri/angular-web-worker/assets/102620441/48399c70-85db-4d1e-a8cc-2798a387a6c7)
+
+## Result renders when web worker completes its calculation
+![10000000 using web worker](https://github.com/pranaigiri/angular-web-worker/assets/102620441/ae052116-f491-49cc-9f61-de008e0f192d)
+
 
 This repository is designed to help you understand and implement web workers in Angular projects. Here's what you'll find inside:
 
