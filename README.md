@@ -5,21 +5,19 @@ Web workers allow you to run JavaScript code in the background, enabling your we
 ![10000000 using normal](https://github.com/pranaigiri/angular-web-worker/assets/102620441/e64206c2-9793-485b-8503-d24c4113eeee)
 
 ## UI stays responsive while calculating using web worker
+As you can see we can use other UI components when web worker does its calculation in the background.
 ![10000000 with responsive](https://github.com/pranaigiri/angular-web-worker/assets/102620441/48399c70-85db-4d1e-a8cc-2798a387a6c7)
 
-## Result renders when web worker completes its calculation
+## Result automatically renders when web worker completes its calculation
 ![10000000 using web worker](https://github.com/pranaigiri/angular-web-worker/assets/102620441/ae052116-f491-49cc-9f61-de008e0f192d)
 
 
 This repository is designed to help you understand and implement web workers in Angular projects. Here's what you'll find inside:
 
-Angular Application: The main Angular application codebase is provided, showcasing a simple use case. You can see how web workers can be integrated seamlessly into your Angular project to offload resource-intensive tasks and enhance the user experience.
+- Angular Application: The main Angular application codebase is provided, showcasing a simple use case. You can see how web workers can be integrated seamlessly into your Angular project to offload resource-intensive tasks and enhance the user experience.
 
-Web Worker Implementation: We provide clear examples of how to create and use web workers in an Angular application. Learn how to communicate with web workers, transfer data, and handle complex calculations in a separate thread.
+- Web Worker Implementation: We provide clear examples of how to create and use web workers in an Angular application. Learn how to communicate with web workers, transfer data, and handle complex calculations in a separate thread.
 
-Documentation: Detailed documentation is included to guide you through the setup and usage of web workers in Angular. Whether you're new to web workers or looking for a quick reference, this documentation will be your go-to resource.
-
-Demo and Examples: We've included practical examples and a working demo to help you visualize the power of web workers in action. Run the demo and see how your Angular app can benefit from web worker implementation.
 
 ### Getting Started:
 
